@@ -96,14 +96,22 @@ Product pitch landing page.
 
 <br>
 
+## Stats
+
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=gabrielDallape&hide_border=true&background=00000000&ring=39d353&fire=39d353&currStreakNum=39d353&currStreakLabel=8b949e&sideNums=8b949e&sideLabels=8b949e&dates=6e7681" alt="Contribution streak">
+  <img src="./metrics.svg" alt="GitHub metrics">
 </p>
 
+<p align="center">
+  <img src="./metrics-calendar.svg" alt="Contribution calendar">
+  <img src="https://streak-stats.demolab.com/?user=gabrielDallape&hide_border=true&background=00000000&ring=39d353&fire=39d353&currStreakNum=39d353&currStreakLabel=8b949e&sideNums=8b949e&sideLabels=8b949e&dates=6e7681" height="180" alt="Contribution streak">
+</p>
+
+<!-- bomberman -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabrielDallape/gabrielDallape/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gabrielDallape/gabrielDallape/output/snake.svg">
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/gabrielDallape/gabrielDallape/output/snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabrielDallape/gabrielDallape/output/bomberman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gabrielDallape/gabrielDallape/output/bomberman-contribution-graph.svg">
+  <img alt="Bomberman contribution graph" src="https://raw.githubusercontent.com/gabrielDallape/gabrielDallape/output/bomberman-contribution-graph.svg">
 </picture>
 
 <p align="center">
