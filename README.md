@@ -12,9 +12,6 @@
   <a href="mailto:gabrieldallape@gmail.com">
     <img src="https://img.shields.io/badge/Email-24292F?style=flat-square&logo=gmail&logoColor=white" alt="Email">
   </a>
-  <a href="https://yotakes.vercel.app">
-    <img src="https://img.shields.io/badge/Yotakes-live-39d353?style=flat-square" alt="Yotakes live">
-  </a>
 </p>
 
 <br>
@@ -110,5 +107,5 @@ Product pitch landing page.
 </picture>
 
 <p align="center">
-  <sub>Studying at <b>FIAP</b> · Always open to talk about products worth building.</sub>
+  <sub><b>Computer Engineering</b> at FIAP · Always open to talk about products worth building.</sub>
 </p>
