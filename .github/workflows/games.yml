@@ -35,6 +35,28 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
 
+      # O bomberman sai rapido demais do gerador. As animacoes nao usam
+      # `begin=` e os `keyTimes` sao fracoes, entao multiplicar todos os
+      # `dur` pelo mesmo fator desacelera sem dessincronizar nada.
+      # Ajuste FATOR para mudar a velocidade: 2 = metade da velocidade.
+      - name: Desacelerar o bomberman
+        run: |
+          node -e '
+            const fs = require("fs");
+            const FATOR = 2;
+            const alvos = fs.readdirSync("dist").filter(f => f.startsWith("bomberman"));
+            for (const nome of alvos) {
+              const caminho = "dist/" + nome;
+              let n = 0;
+              const svg = fs.readFileSync(caminho, "utf8").replace(
+                /dur="(\d+(?:\.\d+)?)(ms|s)"/g,
+                (_, valor, unidade) => { n++; return `dur="${+valor * FATOR}${unidade}"`; }
+              );
+              fs.writeFileSync(caminho, svg);
+              console.log(`${nome}: ${n} animacoes desaceleradas ${FATOR}x`);
+            }
+          '
+
       - name: Publicar tudo na branch output
         uses: crazy-max/ghaction-github-pages@v4
         with:

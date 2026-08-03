@@ -99,13 +99,21 @@ Product pitch landing page.
 ## Stats
 
 <p align="center">
-  <img src="./metrics.svg" alt="GitHub metrics">
+  <img src="https://streak-stats.demolab.com/?user=gabrielDallape&hide_border=true&background=00000000&ring=39d353&fire=39d353&currStreakNum=39d353&currStreakLabel=8b949e&sideNums=8b949e&sideLabels=8b949e&dates=6e7681" alt="Contribution streak">
 </p>
 
+<!-- Os cards do metrics saem daqui ate existir o secret METRICS_TOKEN.
+     Sem ele o GITHUB_TOKEN so enxerga este repositorio, e os cards saem
+     vazios ("0 Languages", calendario sem quadradinhos). Com o token,
+     descomente:
+<p align="center">
+  <img src="./metrics.svg" alt="GitHub metrics">
+</p>
 <p align="center">
   <img src="./metrics-calendar.svg" alt="Contribution calendar">
-  <img src="https://streak-stats.demolab.com/?user=gabrielDallape&hide_border=true&background=00000000&ring=39d353&fire=39d353&currStreakNum=39d353&currStreakLabel=8b949e&sideNums=8b949e&sideLabels=8b949e&dates=6e7681" height="180" alt="Contribution streak">
 </p>
+-->
+
 
 <!-- bomberman -->
 <picture>
