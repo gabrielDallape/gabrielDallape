@@ -35,6 +35,15 @@ won items back to the marketplace. Multi-tenant by JWT, Fernet-encrypted OAuth t
 
 <sub>`Python` · `FastAPI` · `SQLAlchemy` · `pgvector` · `Next.js` · `Docker`</sub>
 
+### [Telinha Deck](https://github.com/gabrielDallape/telinha-deck) &nbsp;·&nbsp; <sub>open source, in development</sub>
+
+A DIY Stream Deck: a 5" ESP32-P4 touchscreen under the monitor that switches pages with
+the app in focus. All artwork is rendered on the PC and streamed over USB, so the board
+stays dumb and the firmware never changes. Spotify, OBS, Discord and Claude Code pages,
+a module SDK and a React editor with a virtual board.
+
+<sub>`ESP32-P4` · `Python` · `Pillow` · `React` · `TypeScript` · `3D printing`</sub>
+
 <br>
 
 ## Open source
